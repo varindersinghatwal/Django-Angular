@@ -56,7 +56,7 @@ ROOT_URLCONF = 'angluardjango.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['/Library/Python/2.7/site-packages/rest_framework/templates/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

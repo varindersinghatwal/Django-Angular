@@ -1,0 +1,10 @@
+(function () {
+    'use strict';
+
+    angular.module('angluardjango', ['angluardjango.routes', 'angluardjango.authentication', 'angluardjango.config']);
+
+    angular.module('angluardjango.routes', ['ngRoute']);
+    
+    angular.module('thinkster.config', []);
+
+})();
